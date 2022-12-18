@@ -1,0 +1,15 @@
+body{
+    background-color: aquamarine;
+}
+
+.parastyle{
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    /* font-size: xx-large; */
+    color: blue;
+    text-align: justify;
+}
+
+img{
+    border: 15pt solid black;
+}

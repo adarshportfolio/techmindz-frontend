@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>JavaScript in body tag</title>
+</head>
+<body>
+    <h1>JavaScript in body tag</h1>
+    <p id="para">This data will change on clicking</p>
+    <input type="submit" value="Njekkada button" onclick="bodyscript()"/>
+<!-- Wrirting the script in the body part; Earlier it was script on the head  -->
+    <script>
+        function bodyscript(){
+            document.getElementById("para").innerHTML="This is the change that has occoured on clicking the button"
+        }
+    </script>
+</body>
+</html>
