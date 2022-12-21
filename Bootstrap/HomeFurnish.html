@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Home Furnish</title>
+    <!-- CSS Bootstrap https://getbootstrap.com/docs/5.0/getting-started/introduction/ -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+</head>
+<body style="background-color:antiquewhite">
+    <!-- JS https://getbootstrap.com/docs/5.0/getting-started/introduction/-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+    <!-- https://getbootstrap.com/docs/5.0/layout/grid/ -->
+    <div class="container">
+        <!-- https://getbootstrap.com/docs/5.0/components/navbar/ -->
+        <!-- navbar starts -->
+        <nav class="navbar navbar-expand-lg navbar-light sticky-top" style="background-color:antiquewhite ">
+          <!--Sticky top we added for fixed nav bar  -->
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#home"> <img src="images/logodownload.png" width="45" height="45" alt=""> HomeFurnish</a>   <!--href=#id name-->
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#home">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#about">AboutUs</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#furnituretype" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Catagories
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="#furnituretypes">Furniture Types</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href=".living">LIVING</a></li>
+                  <li><a class="dropdown-item" href="#">DINING</a></li>
+                  <li><a class="dropdown-item" href="#">KITCHEN</a></li>
+                  <li><a class="dropdown-item" href="#">OFFICE</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contact">Contact Us</a>
+              </li>
+            </ul>
+            <form class="d-flex">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+            
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item nav-link">
+                <a href=""></a><img src="images/loginlogo.jpg" width="45" height="45" alt=""></a></li>
+              <li></li>
+              <li class="nav-item nav-link"><a href=""></a><img src="images/signuplogo.png" width="45" height="45" alt=""></a></li>
+            </ul>
+
+          </div>
+        </div>
+      </nav>
+      <!-- navbar ends -->
+        <div class="row" id="home">
+          <div class="col-12">
+            <!-- https://getbootstrap.com/docs/5.0/content/images/ -->
+            <img src="images/Furniture.jpg" class="img-fluid" alt="furniture" width="100%">
+          </div>
+        </div>
+
+        <div id="about">
+            <!-- About us CARD -->
+            <!-- https://getbootstrap.com/docs/5.0/components/card/#:~:text=Card%20headers%20can%20be%20styled%20by -->
+            <div class="card">
+                <h3 class="card-header" style="text-align: center; font-weight: bolder;">About Us</h3>
+                <div class="card-body">
+                  <h5 class="card-title">Our Furnishing</h5>
+                  
+                  <p class="card-text">Nilambur Furniture, one of the trusted Kerala furniture manufacturers, is located in Cochin since 1998 with years of experience, totaling over 23 years, in the furniture trade. At Nilambur Furniture, our goal is to provide top-quality customized furniture Kerala and accessories at the best Kerala furniture price, while at the same time providing a great customer experience. Our production unit is located in Varapuzha. 
+<br><br>
+                    Our facilities consist of imported machinery for standard wood processing as well as customer-made machines. We are one of the best furniture shops in Kerala, furniture store in Kochi and the reason behind it is that we have the expertise to develop an individual sense of style into the perfect furniture of our dreams. Styles can also be customized to the size and comfort that you desire. The best combination of Visualizers, Carpenters, and creative skilled workers here at our furniture shops in Kochi creates charming and outstanding designs for customers.
+                    
+                    A visit to our Flagship furniture shops in Ernakulam can help you decide on the furniture and interior needs of your upcoming projects, residential or commercial.</p>
+                  <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
+                </div>
+                <!-- https://getbootstrap.com/docs/5.0/components/card/#:~:text=Using%20a%20combination%20of%20grid%20and -->
+                <div class="card mb-3" style="max-width: 100%;">
+                    <div class="row g-0">
+                      <div class="col-md-5">
+                        <img src="images/aboutus.jpg" class="img-fluid rounded-start" alt="fur" width="100%" height="100%">
+                      </div>
+                      <div class="col-md-7">
+                        <div class="card-body">
+                          <h5 class="card-title">About Our Group</h5>
+                          <p class="card-text">M.T Global Group made its presence in the industry almost 20 years back and has showcased its expertise in Furniture to Interiors, Textiles to Jewellery. The group has even entered the construction sector and has been applauded for its "Trust, Quality, Service and Commitment". M.T Global Group's Interior design division is a premier name in interior designing and has truly excelled in this arena. This division undertakes interior designing works for villas, flats, churches, convents, etc.
+
+                            M.T Global Group has its roots in Nilambur, the teak city of Kerala where the group company Nilambur Furniture took birth. The vision behind the first step was to provide economical and quality online furniture Kerala for the customers. Within a short span of time, the concern was able to get the trust and support of customers and then started the success story, which spread on to a wide range of business verticals.</p>
+                          <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+              </div>
+        </div>
+        <div>
+            <div class="card" id="furnituretypes">
+                <div class="card-header" style="text-align: center;">
+
+                  <h3>Different Furniture Types</h3>
+                </div>
+                <div class="card-body">
+                  <!-- <h5 class="card-title">Living Room Furnishing</h5> -->
+                  <div class="row row-cols-1 row-cols-md-3 g-4">
+                    <div class="col">
+                      <div class="card h-100">
+                        <img src="images/living.jpg" class="card-img-top" alt="living" width="100%" height="100%">
+                        <div class="card-body">
+                          <h5 class="card-title">Living Room Furnishing</h5>
+                          <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                        </div>
+                        <!-- <div class="card-footer">
+                          <small class="text-muted">Last updated 3 mins ago</small>
+                        </div> -->
+                      </div>
+                    </div>
+                    <!-- Card 1 -->
+                    <div class="col">
+                      <div class="card h-100">
+                        <img src="images/dining.jpg" class="card-img-top" alt="dining" >
+                        <div class="card-body">
+                          <h5 class="card-title">Dining Room Furnishing</h5>
+                          <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+                        </div>
+                        <!-- <div class="card-footer">
+                          <small class="text-muted">Last updated 3 mins ago</small>
+                        </div> -->
+                      </div>
+                    </div>
+                    <div class="col">
+                      <div class="card h-100">
+                        <img src="images/kitchen.jpg" class="card-img-top" alt="kitchen"width="100%" height="100%">
+                        <div class="card-body">
+                          <h5 class="card-title">Kitchen Furnishing</h5>
+                          <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+                        </div>
+                        <!-- <div class="card-footer">
+                          <small class="text-muted">Last updated 3 mins ago</small>
+                        </div> -->
+                      </div>
+                    </div>
+                    <br><br>
+
+
+                    <div class="col">
+                      <div class="card h-100">
+                        <img src="images/office.jpg" class="card-img-top" alt="office"width="100%" height="100%">
+                        <div class="card-body">
+                          <h5 class="card-title">Office Furnishing</h5>
+                          <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+                        </div>
+                        <!-- <div class="card-footer">
+                          <small class="text-muted">Last updated 3 mins ago</small>
+                        </div> -->
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+        </div>
+        <div class="card">
+          <div class="card-header" style="text-align: center;" id="contact">
+            <h3>Contact Us</h3>
+          </div>
+          <div class="card-body">
+            <!-- Paste card below https://getbootstrap.com/docs/4.0/components/card/#:~:text=mixins%2C%20or%20utilities.-,Using%20grid%20markup,Using%20the%20grid%2C%20wrap%20cards%20in%20columns,-and%20rows%20as-->
+            <div class="row">
+              <div class="col-sm-12">
+                <div class="card">
+                  <div class="card-body">
+                    <div class="row">
+                      <div class="col-5">
+                        <h5>Our Cochin Branch</h5>
+                        <p>Address: Carnival Infopark Phase I, Infopark Rd, Infopark Campus, Kochi, Kerala 682042</p>
+                        <p>Phone : 9986378490</p>
+                        <p>Open Hours: 24/7</p>
+                      </div>
+                      <div class="col-7">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d15716.381076717471!2d76.35214005!3d10.008989150000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sin!4v1671518239875!5m2!1sen!2sin" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                      </div>  
+                      </div>   
+                    </div>
+                  </div>
+                </div>
+              </div>
+<!-- Next card -->
+              <div class="col-sm-12">
+                <div class="card">
+                  <div class="card-body">
+                    <div class="row">     
+                      <div class="col-5">
+                        <h5>Our Banglore Branch</h5>
+                        <p>Address: Carnival Infopark Phase I, Infopark Rd, Infopark Campus, Kochi, Kerala 682042</p>
+                        <p>Phone : 9900078490</p>
+                        <p>Open Hours: 24/7</p>
+                      </div>
+                      <div class="col-7">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d15716.381076717471!2d76.35214005!3d10.008989150000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sin!4v1671518239875!5m2!1sen!2sin" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                      </div>
+                    </div>  
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        
+          <div>
+          <div class="card text-center" id="login" >
+            <div class="card-header" style="width:100%;" > 
+              <h1>Login</h1>
+              Featured
+            </div>
+            <form>
+              <div class="form-group row">
+                <label for="inputEmail" class="col-sm-2 col-form-label">Email</label>
+                <div class="col-sm-10">
+                  <input type="email" readonly class="form-control-plaintext" id="inputEmail" placeholder="email@example.com">
+                </div>
+              </div>
+              <div class="form-group row">
+                <label for="inputPassword" class="col-sm-2 col-form-label">Password</label>
+                <div class="col-sm-10">
+                  <input type="password" class="form-control" id="inputPassword" placeholder="Password">
+                </div>
+              </div>
+              <div class="col-sm-5"><button type="submit" class="btn btn-primary mb-2" style="text-align: center;">Login</button></div>
+            </form>
+
+
+
+            <form>
+  <div class="form-row">
+    <div class="form-group col-md-6">
+      <label for="inputEmail4">Email</label>
+      <input type="email" class="form-control" id="inputEmail4" placeholder="Email">
+    </div>
+    <div class="form-group col-md-6">
+      <label for="inputPassword4">Password</label>
+      <input type="password" class="form-control" id="inputPassword4" placeholder="Password">
+    </div>
+  </div>
+  <div class="form-group">
+    <label for="inputAddress">Address</label>
+    <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
+  </div>
+  <div class="form-group">
+    <label for="inputAddress2">Address 2</label>
+    <input type="text" class="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor">
+  </div>
+  <div class="form-row">
+    <div class="form-group col-md-6">
+      <label for="inputCity">City</label>
+      <input type="text" class="form-control" id="inputCity">
+    </div>
+    <div class="form-group col-md-4">
+      <label for="inputState">State</label>
+      <select id="inputState" class="form-control">
+        <option selected>Choose...</option>
+        <option>...</option>
+      </select>
+    </div>
+    <div class="form-group col-md-2">
+      <label for="inputZip">Zip</label>
+      <input type="text" class="form-control" id="inputZip">
+    </div>
+  </div>
+  <div class="form-group">
+    <div class="form-check">
+      <input class="form-check-input" type="checkbox" id="gridCheck">
+      <label class="form-check-label" for="gridCheck">
+        Check me out
+      </label>
+    </div>
+  </div>
+  <button type="submit" class="btn btn-primary">Sign in</button>
+</form>
+          </div>  
+        </div>
+      </div><!--div of container-->
+</body>
+</html>
+<!-- gmap , share embed map, copy html link  -->
